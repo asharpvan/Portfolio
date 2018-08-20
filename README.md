@@ -6,7 +6,7 @@ _VueJS_
 ## Tasks To Do
 This by no way is an exhaustive list of things to do. One can assume the following will change as the time proceeds:
  
-+ ~~Setup remote repository on Github.~~ (Dated 20th August 2018)
-+ ~~Connect remote and local repository.~~ (Dated 20th August 2018)
++ ~~Setup remote repository on Github.~~ 20th August 2018
++ ~~Connect remote and local repository.~~ 20th August 2018
 + Create PWA Boilerplate using VueJS.
 + Create Home Page
