@@ -9,7 +9,6 @@
         <div class="logo">LOGO</div>
         <div class="menu">
           <ul>
-            <li><a href="#">Home</a></li>
             <li><a href="#">Work</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
@@ -89,7 +88,7 @@ header {
 .logo {
   position: fixed;
   float: left;
-  margin: 16px 36px;
+  margin: 15px 15px;
   color: #ffffff;
   font-weight: bold;
   font-size: 24px;
@@ -131,7 +130,7 @@ nav ul li a {
   background: #000000;
   text-align: right;
   box-sizing: border-box;
-  padding: 15px 24px;
+  padding: 15px 15px;
   cursor: pointer;
   color: #ffffff;
   display: none;
@@ -145,7 +144,7 @@ nav ul li a {
   .logo {
     position: fixed;
     top: 0;
-    margin-top: 16px;
+    margin-top: 15px;
   }
   nav ul {
     max-height: 0px;

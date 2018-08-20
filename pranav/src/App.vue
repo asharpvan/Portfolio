@@ -3,7 +3,9 @@
     <main>
       <router-view></router-view>
     </main>
-    <footer>Pranav Sah</footer>
+    <div id="footer">
+      <p>Copyright | All rights reserved | Year | Creator Name</p>
+    </div> 
   </div>
 </template>
 
@@ -25,11 +27,11 @@ body {
   color: #2c3e50;
 }
 
-footer {
-  width: 100%;
-  height: 60px;
-  text-align: center;
-  vertical-align: center;
+#footer{
+    display: table;
+    text-align: center;
+    margin: auto auto;
+    font-size: 14px;
 }
 
 /* main {
