@@ -1,7 +1,7 @@
 
 # Portfolio
-A simpleton of a project to learn the **DO's** and **DON'Ts** of creating a PWA using **
-_VueJS_**
+A simpleton of a project to learn the **DO's** and **DON'Ts** of creating a PWA using 
+_VueJS_
 ---
 
 ## Tasks To Do
