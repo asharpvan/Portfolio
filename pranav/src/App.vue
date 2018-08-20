@@ -3,6 +3,7 @@
     <main>
       <router-view></router-view>
     </main>
+    <footer>Pranav Sah</footer>
   </div>
 </template>
 
@@ -15,7 +16,6 @@ export default {
 <style>
 body {
   margin: 0;
-  font-family: Quicksand;
 }
 
 #app {
@@ -23,6 +23,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  vertical-align: center;
 }
 
 /* main {
