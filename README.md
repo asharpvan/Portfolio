@@ -1,5 +1,8 @@
 
-# H1
+# Portfolio
+---
+A simpleton of a project to learn the DO's and DON'Ts of creating a PWA using VueJS
+
 ## H2
 ### H3
 #### H4
