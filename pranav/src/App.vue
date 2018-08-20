@@ -19,16 +19,16 @@ body {
 }
 
 #app {
-  font-family: Quicksand, Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
 
-main {
+/* main {
   text-align: center;
-  /* margin-top: 40px; */
-}
+  margin-top: 40px;
+} */
 
 header {
   margin: 0;
