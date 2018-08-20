@@ -2,13 +2,11 @@
   <!-- Your HTML goes here -->
   <div class="wrapper">
     <header>
-      <nav>
+      <nav id="nav">
         <div class="menu-icon">
           <i class="fa fa-bars fa-2x"></i>
         </div>
-        <div class="logo">
-          LOGO
-        </div>
+        <div class="logo">LOGO</div>
         <div class="menu">
           <ul>
             <li><a href="#">Home</a></li>
@@ -31,9 +29,46 @@
 <script>
 /* Your JS goes here */
 export default {
+/* Life Cycle Methods */
+  beforeCreate: function () {
+    console.log('Before Create')
+  },
+  created: function () {
+    console.log('Created')
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeMount: function () {
+    console.log('Before Mount')
+  },
+  mounted: function () {
+    console.log('Mounted')
+  },
+  beforeUpdate: function () {
+    console.log('Before Update')
+  },
+  updated: function () {
+    console.log('Updated')
+  },
+  beforeDestroy: function () {
+    console.log('Before Destroy')
+  },
+  destroyed: function () {
+    console.log('Destroyed')
+    window.removeEventListener('scroll', this.handleScroll)
+  },
   data () {
     return {
       msg: 'Welcome to Your Home Page'
+    }
+  },
+  methods: {
+    handleScroll: function (event) {
+      console.log('Scrolled!!')
+      if (window.scrollY > window.screenTop) {
+        document.getElementById('nav').classList.add('black')
+      } else {
+        document.getElementById('nav').classList.remove('black')
+      }
     }
   }
 }
@@ -102,6 +137,10 @@ nav ul li a {
   display: none;
 }
 
+/* button {
+  height: 60px;
+} */
+
 @media (max-width: 580px) {
   .logo {
     position: fixed;
@@ -123,6 +162,9 @@ nav ul li a {
     width: 100%;
     padding: 24px 0;
     text-align: center;
+  }
+  .menu-icon {
+    display: block;
   }
 }
 
