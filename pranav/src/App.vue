@@ -30,15 +30,15 @@ body {
   margin-top: 40px;
 } */
 
-header {
+/* header {
   margin: 0;
   height: 56px;
   padding: 0 16px 0 24px;
   background-color: #35495E;
   color: #ffffff;
-}
+} */
 
-header span {
+/* header span {
   display: block;
   position: relative;
   font-size: 20px;
@@ -47,5 +47,5 @@ header span {
   font-weight: 400;
   box-sizing: border-box;
   padding-top: 16px;
-}
+} */
 </style>

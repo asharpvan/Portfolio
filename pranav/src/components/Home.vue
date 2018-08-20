@@ -45,7 +45,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 /* Your CSS goes here */
-div {
+header {
+  width: 100%;
+  height: 100vh;
+  /* background-color: yellow; */
+  background: url("../assets/app/intro.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+/* div {
     background-color: lightblue;
 }
 
@@ -54,5 +61,5 @@ h1 {
   margin: 0;
   font-weight: normal;
   background-color: yellowgreen;
-}
+} */
 </style>
