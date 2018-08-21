@@ -16,9 +16,7 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0;
-}
+
 @font-face {
   font-family: 'Quicksand';
   src: url('../src/assets/fonts/quicksand-regular-webfont.woff2') format('woff2'),
@@ -32,6 +30,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 #footer{

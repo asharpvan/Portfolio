@@ -15,11 +15,14 @@
           </ul>
         </div>
       </nav>
-      <h1 class="greeting" >Pranav Sah</h1>
+      <h1 class="intro_text">Some Title</h1>
+      <h3 class="intro_text">Some | Long | Subtitle</h3>
+
     </header>
     <div class="about">
     </div>
     <div class="techstack">
+      
     </div>
   </div>
 </template>
@@ -97,10 +100,9 @@ header {
   font-size: 24px;
 }
 
-.greeting {
-  background-color: yellow;
-  padding: 0;
+.intro_text {
   margin: 0;
+  padding: 0;
   text-align: center;
   color: white;
   position: relative;
@@ -113,6 +115,7 @@ header {
 nav {
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 nav ul {
@@ -132,7 +135,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 18px;
+  padding: 18px; /* Controls nav bar height in Desktop */
   /* background-color: red; */
 }
 
@@ -185,7 +188,7 @@ nav ul li a {
 .about {
   width: 100%;
   height: 100vh;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 /* Tech Stack */
