@@ -21,7 +21,7 @@ body {
 }
 
 #app {
-  font-family: Quicksand, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
