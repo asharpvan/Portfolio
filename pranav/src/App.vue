@@ -4,7 +4,7 @@
       <router-view></router-view>
     </main>
     <div id="footer">
-      <p>Copyright | All rights reserved | Year | Creator Name</p>
+      <p>Copyright © 2008 Pranav Sah. All rights reserved.</p>
     </div> 
   </div>
 </template>
