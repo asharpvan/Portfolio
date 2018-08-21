@@ -5,7 +5,6 @@
       <nav id="nav">
         <div class="menu-icon">
           <img @click="toggleMenu" src='../assets/app/menu-bars.png' alt="menu" width="25" height="25">
-          <!-- <i class="../assets/app/menu-bars.png"></i> -->
         </div>
         <div class="logo">LOGO</div>
         <div class="menu">
@@ -16,12 +15,11 @@
           </ul>
         </div>
       </nav>
+      <h1 class="greeting" >Pranav Sah</h1>
     </header>
     <div class="about">
-      
     </div>
     <div class="techstack">
-      
     </div>
   </div>
 </template>
@@ -99,6 +97,19 @@ header {
   font-size: 24px;
 }
 
+.greeting {
+  background-color: yellow;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -122,12 +133,14 @@ nav.black ul {
 nav ul li {
   display: inline-block;
   padding: 18px;
+  /* background-color: red; */
 }
 
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
+  /* background-color: aqua; */
 }
 
 .menu-icon {
@@ -135,7 +148,7 @@ nav ul li a {
   background: #000000;
   text-align: right;
   box-sizing: border-box;
-  padding: 15px 24px;
+  padding: 16px 24px;
   cursor: pointer;
   color: #ffffff;
   display: none;
@@ -145,7 +158,7 @@ nav ul li a {
   .logo {
     position: fixed;
     top: 0;
-    margin-top: 15px;
+    margin-top: 16px;
   }
   nav ul {
     max-height: 0px;
