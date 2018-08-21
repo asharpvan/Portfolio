@@ -9,8 +9,8 @@ This by no way is an exhaustive list of things to do. One can assume the followi
 + ~~Setup remote repository on Github.~~ 20th August 2018
 + ~~Connect remote and local repository.~~ 20th August 2018
 + ~~Create PWA Boilerplate using VueJS.~~ 20th August 2018
-+ Import Font.
-+ Local Menu button Icon.
++ ~~Import Font.~~ 21st August 2018
++ ~~Local Menu Icon.~~ 21st August 2018
 + Create Home Page.
 + Create Projects Page.
 + Create Work Experience Page.
