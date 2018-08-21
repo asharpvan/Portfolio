@@ -14,3 +14,4 @@ This by no way is an exhaustive list of things to do. One can assume the followi
 + Create Home Page.
 + Create Projects Page.
 + Create Work Experience Page.
+

@@ -4,6 +4,7 @@
     <header>
       <nav id="nav">
         <div class="menu-icon">
+          <img @click="changeThePage" src='../assets/app/menu-bars.png' alt="menu" width="25" height="25">
           <!-- <i class="fa fa-bars fa-2x"></i> -->
         </div>
         <div class="logo">LOGO</div>
@@ -68,6 +69,9 @@ export default {
       } else {
         document.getElementById('nav').classList.remove('black')
       }
+    },
+    changeThePage: function () {
+      console.log('menu button clicked')
     }
   }
 }
@@ -136,9 +140,12 @@ nav ul li a {
   display: none;
 }
 
-/* button {
-  height: 60px;
-} */
+button {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-image: url('../assets/app/menu-bars.png');
+ }
 
 @media (max-width: 580px) {
   .logo {
