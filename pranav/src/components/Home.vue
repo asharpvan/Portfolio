@@ -93,7 +93,7 @@ header {
 .logo {
   position: fixed;
   float: left;
-  margin: 15px 15px;
+  margin: 16px 36px;
   color: #ffffff;
   font-weight: bold;
   font-size: 24px;
@@ -135,7 +135,7 @@ nav ul li a {
   background: #000000;
   text-align: right;
   box-sizing: border-box;
-  padding: 15px 15px;
+  padding: 15px 24px;
   cursor: pointer;
   color: #ffffff;
   display: none;

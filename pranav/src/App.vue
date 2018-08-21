@@ -19,9 +19,16 @@ export default {
 body {
   margin: 0;
 }
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../src/assets/fonts/quicksand-regular-webfont.woff2') format('woff2'),
+    url('../src/assets/fonts/quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;                
+}
 
 #app {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Quicksand;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
