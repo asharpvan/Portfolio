@@ -4,7 +4,7 @@
     <header>
       <nav id="nav">
         <div class="menu-icon">
-          <i class="fa fa-bars fa-2x"></i>
+          <!-- <i class="fa fa-bars fa-2x"></i> -->
         </div>
         <div class="logo">LOGO</div>
         <div class="menu">
