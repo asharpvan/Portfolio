@@ -27,7 +27,7 @@
     </div>
     <!-- Tech Stack Div -->
     <div class="techstack">
-      <h2 class="about_title">Tech stack</h2>
+      <h2 class="techstack_title">Tech stack</h2>
     </div>
   </div>
 </template>
@@ -191,9 +191,6 @@ nav ul li a {
 
 /* About Me */
 .about {
-  /* width: 95%; */
-  /* margin: 0 auto; */
-  /* text-align: center; */
   background-color: yellow;
 }
 
@@ -222,6 +219,16 @@ nav ul li a {
   /* width: 95%; */
   /* margin: 4em auto; */
   background-color: greenyellow;
+}
+
+.techstack_title {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.techstack img {
+  margin: 1%;
+  width: 45%;
 }
 
 </style>
