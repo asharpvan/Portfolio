@@ -4,12 +4,12 @@
     <header>
       <nav id="nav">
         <div class="menu-icon">
-          <img @click="changeThePage" src='../assets/app/menu-bars.png' alt="menu" width="25" height="25">
-          <!-- <i class="fa fa-bars fa-2x"></i> -->
+          <img @click="toggleMenu" src='../assets/app/menu-bars.png' alt="menu" width="25" height="25">
+          <!-- <i class="../assets/app/menu-bars.png"></i> -->
         </div>
         <div class="logo">LOGO</div>
         <div class="menu">
-          <ul>
+          <ul id="ul">
             <li><a href="#">Work</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
@@ -70,8 +70,9 @@ export default {
         document.getElementById('nav').classList.remove('black')
       }
     },
-    changeThePage: function () {
+    toggleMenu: function () {
       console.log('menu button clicked')
+      document.getElementById('ul').classList.toggle('showing')
     }
   }
 }
@@ -120,7 +121,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 18px;
 }
 
 nav ul li a {
@@ -139,13 +140,6 @@ nav ul li a {
   color: #ffffff;
   display: none;
 }
-
-button {
-    display: inline-block;
-    width: 50px;
-    height: 30px;
-    background-image: url('../assets/app/menu-bars.png');
- }
 
 @media (max-width: 580px) {
   .logo {
