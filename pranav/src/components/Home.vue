@@ -27,47 +27,42 @@
     </div>
     <!-- Tech Stack Div -->
     <div class="techstack">
-      <h2 class="techstack_title">Tech stack</h2>
-      <div class="xop-section">
-  <ul class="xop-grid">
-    <li>
-      <div class="xop-box xop-img-1">
-        <a href="#">
-        <div class="xop-info">
-          <h3>Paint</h3>
-          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-        </div></a>
-      </div>
-    </li>
-    <li>
-      <div class="xop-box xop-img-2">
-        <a href="#">
-        <div class="xop-info">
-          <h3>Soap</h3>
-          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-        </div></a>
-      </div>
-    </li>
-    <li>
-      <div class="xop-box xop-img-3">
-        <a href="#">
-        <div class="xop-info">
-          <h3>Flowers</h3>
-          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-        </div></a>
-      </div>
-    </li>
-    <li>
-      <div class="xop-box xop-img-4">
-        <a href="#">
-        <div class="xop-info">
-          <h3>Feathers</h3>
-          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-        </div></a>
-      </div>
-    </li>
-  </ul>
-</div>
+      <h2 class="techstack_title">Tech stack I dabble with</h2>
+      <ul class="techstack_grid">
+        <li>
+          <div class="techstack_icon icon_swift">
+          </div>
+        </li>
+        <li>
+          <div class="techstack_icon icon_vue">
+          </div>
+        </li>
+        <li>
+          <div class="techstack_icon icon_nodejs">
+          </div>
+        </li>
+        <li>
+          <div class="techstack_icon icon_mongodb">
+          </div>
+        </li>
+        <li>
+          <div class="techstack_icon icon_html">
+          </div>
+        </li>
+        <li>
+          <div class="techstack_icon icon_css">
+          </div>
+        </li>
+
+        <li>
+          <div class="techstack_icon icon_github">
+          </div>
+        </li>
+        <li>
+          <div class="techstack_icon icon_gitlab">
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -229,11 +224,6 @@ nav ul li a {
   }
 }
 
-/* About Me */
-/* .about { */
-  /* background-color: yellow; */
-/* } */
-
 .about_title {
   font-weight: bolder;
   text-align: center;
@@ -244,9 +234,9 @@ nav ul li a {
   margin-left: auto;
 	margin-right: auto;
 	display: block;
-  /* text-align: center; */
   border-radius: 50%;
 }
+
 .about_details {
   width: 95%;
   margin: auto auto;
@@ -255,24 +245,17 @@ nav ul li a {
 }
 
 /* Tech Stack */
-.techstack {
-  /* width: 95%; */
-  /* margin: 4em auto; */
-  background-color: greenyellow;
-}
+/* .techstack {
+  background-color: pink;
+} */
 
 .techstack_title {
+  /* background-color: blue; */
   font-weight: bolder;
   text-align: center;
 }
 
-.xop-section {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 6% 2%;
-}
-
-.xop-grid {
+.techstack_grid {
 	margin: 20px 0 0 0;
 	padding: 0;
 	list-style: none;
@@ -281,23 +264,23 @@ nav ul li a {
 	width: 100%;
 }
 
-.xop-grid:after {
+.techstack_grid:after {
 	clear: both;
 }
 
-.xop-grid:after, .xop-box:before {
+.techstack_grid:after, .techstack_icon:before {
 	content: '';
 	display: table;
 }
 
-.xop-grid li {
-	width: 328px;
-	height: 328px;
+.techstack_grid li {
+	width: 256px;
+	height: 256px;
 	display: inline-block;
-	margin: 20px;
+	margin: 15px;
 }
 
-.xop-box {
+.techstack_icon {
 	width: 100%;
 	height: 100%;
 	position: relative;
@@ -311,53 +294,33 @@ nav ul li a {
     transform 0.3s ease-in-out, ;
 }
 
-.xop-box:hover {
+.techstack_icon:hover {
 	transform: scale(1.05); 
 }
-
-.xop-img-1 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
-	url(../assets/app/techstack/mongodb.png) no-repeat 50% 50%;
+.icon_swift {
+  background: url('../assets/app/techstack/swift.png') no-repeat 50% 50%;
+}
+.icon_vue {
+  background: url('../assets/app/techstack/vue.png') no-repeat 50% 50%;
+}
+.icon_nodejs {
+  background: url('../assets/app/techstack/nodejslogo.png') no-repeat 50% 50%;
+}
+.icon_mongodb {
+  background: url('../assets/app/techstack/mongodb.png') no-repeat 50% 50%;
+}
+.icon_html {
+  background: url('../assets/app/techstack/html.png') no-repeat 50% 50%;
+}
+.icon_css {
+  background: url('../assets/app/techstack/css.png') no-repeat 50% 50%;
+}
+.icon_github {
+  background: url('../assets/app/techstack/github.png') no-repeat 50% 50%;
+}
+.icon_gitlab {
+	background: url('../assets/app/techstack/gitlab.png') no-repeat 50% 50%;
 }
 
-.xop-img-2 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
-	/* url(../images/soap.jpg); */
-}
-
-.xop-img-3 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
-	/* url(../images/flower.jpg); */
-}
-
-.xop-img-4 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
-	/* url(../images/feather.jpg); */
-}
-
-.xop-info {
-	position: absolute;
-	width: inherit;
-	height: inherit;
-}
-
-.xop-info h3 {
-	font-family: 'Pacifico', cursive;
-	font-weight: 400;
-	color: #fff;
-	font-size: 42px;
-	margin: 0 30px;
-	padding: 100px 0 0 0;
-	line-height: 1.5;
-}
-
-.xop-info p {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #fff;
-	padding: 4px 5px;
-	margin: 0 30px;
-	font-size: 14px;
-	line-height: 2;
-}
 
 </style>
