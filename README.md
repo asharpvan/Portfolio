@@ -12,7 +12,9 @@ This by no way is an exhaustive list of things to do. One can assume the followi
 + ~~Import Font.~~ 21st August 2018
 + ~~Local Menu Icon.~~ 21st August 2018
 + ~~Create Home Page.~~ 22nd August 2018
-+ Create and Connect Various Routes to Work, Projects and Contact.
++ ~~Create and Connect Various Routes to Work, Projects and Work Experience.~~ 22nd August 2018
 + Create Projects Page.
++ Create Icons for Live Projects.
++ Perpare format and text for Project details.
 + Create Work Experience Page.
 
