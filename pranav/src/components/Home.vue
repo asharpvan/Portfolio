@@ -28,6 +28,46 @@
     <!-- Tech Stack Div -->
     <div class="techstack">
       <h2 class="techstack_title">Tech stack</h2>
+      <div class="xop-section">
+  <ul class="xop-grid">
+    <li>
+      <div class="xop-box xop-img-1">
+        <a href="#">
+        <div class="xop-info">
+          <h3>Paint</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+    <li>
+      <div class="xop-box xop-img-2">
+        <a href="#">
+        <div class="xop-info">
+          <h3>Soap</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+    <li>
+      <div class="xop-box xop-img-3">
+        <a href="#">
+        <div class="xop-info">
+          <h3>Flowers</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+    <li>
+      <div class="xop-box xop-img-4">
+        <a href="#">
+        <div class="xop-info">
+          <h3>Feathers</h3>
+          <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+        </div></a>
+      </div>
+    </li>
+  </ul>
+</div>
     </div>
   </div>
 </template>
@@ -190,9 +230,9 @@ nav ul li a {
 }
 
 /* About Me */
-.about {
-  background-color: yellow;
-}
+/* .about { */
+  /* background-color: yellow; */
+/* } */
 
 .about_title {
   font-weight: bolder;
@@ -226,9 +266,98 @@ nav ul li a {
   text-align: center;
 }
 
-.techstack img {
-  margin: 1%;
-  width: 45%;
+.xop-section {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 6% 2%;
+}
+
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+.xop-img-1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(../assets/app/techstack/mongodb.png) no-repeat 50% 50%;
+}
+
+.xop-img-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	/* url(../images/soap.jpg); */
+}
+
+.xop-img-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	/* url(../images/flower.jpg); */
+}
+
+.xop-img-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	/* url(../images/feather.jpg); */
+}
+
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3 {
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color: #fff;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.5;
+}
+
+.xop-info p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
 }
 
 </style>
