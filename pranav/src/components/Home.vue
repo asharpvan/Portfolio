@@ -19,35 +19,42 @@
         <li>
           <div class="techstack_icon icon_swift">
           </div>
+          <h2 class="techstack_icon_heading">Swift</h2>
         </li>
         <li>
           <div class="techstack_icon icon_vue">
           </div>
+          <h2 class="techstack_icon_heading">VueJS</h2>
         </li>
         <li>
           <div class="techstack_icon icon_nodejs">
           </div>
+          <h2 class="techstack_icon_heading">Node JS</h2>
         </li>
         <li>
           <div class="techstack_icon icon_mongodb">
           </div>
+          <h2 class="techstack_icon_heading">Mongo DB</h2>
         </li>
         <li>
           <div class="techstack_icon icon_html">
           </div>
+          <h2 class="techstack_icon_heading">HTML</h2>
         </li>
         <li>
           <div class="techstack_icon icon_css">
           </div>
+          <h2 class="techstack_icon_heading">CSS</h2>
         </li>
-
         <li>
           <div class="techstack_icon icon_github">
           </div>
+          <h2 class="techstack_icon_heading">Gitlab</h2>
         </li>
         <li>
           <div class="techstack_icon icon_gitlab">
           </div>
+          <h2 class="techstack_icon_heading">Github</h2>
         </li>
       </ul>
     </div>
@@ -110,9 +117,10 @@ header {
 }
 
 /* Tech Stack */
-/* .techstack {
-  background-color: pink;
-} */
+.techstack {
+  padding-bottom: 2em;
+  /* background-color: pink; */
+}
 
 .techstack_title {
   /* background-color: blue; */
@@ -159,33 +167,68 @@ header {
     transform 0.3s ease-in-out, ;
 }
 
+.techstack_icon_heading {
+  text-decoration: underline;
+}
+
 .techstack_icon:hover {
 	transform: scale(1.05); 
 }
 .icon_swift {
-  background: url('../assets/app/techstack/swift.png') no-repeat 50% 50%;
+  background: url('../assets/app/techstack/swift_1.png') no-repeat 50% 50%;
 }
 .icon_vue {
-  background: url('../assets/app/techstack/vue.png') no-repeat 50% 50%;
+  background: url('../assets/app/techstack/vue_1.png') no-repeat 50% 50%;
 }
 .icon_nodejs {
-  background: url('../assets/app/techstack/nodejslogo.png') no-repeat 50% 50%;
+  background: url('../assets/app/techstack/node_1.png') no-repeat 50% 50%;
 }
 .icon_mongodb {
-  background: url('../assets/app/techstack/mongodb.png') no-repeat 50% 50%;
+  background: url('../assets/app/techstack/mongo_1.png') no-repeat 50% 50%;
 }
 .icon_html {
-  background: url('../assets/app/techstack/html.png') no-repeat 50% 50%;
+  background: url('../assets/app/techstack/html_1.png') no-repeat 50% 50%;
 }
 .icon_css {
-  background: url('../assets/app/techstack/css.png') no-repeat 50% 50%;
+  background: url('../assets/app/techstack/css_1.png') no-repeat 50% 50%;
 }
 .icon_github {
-  background: url('../assets/app/techstack/github.png') no-repeat 50% 50%;
+  background: url('../assets/app/techstack/github_1.png') no-repeat 50% 50%;
 }
 .icon_gitlab {
-	background: url('../assets/app/techstack/gitlab.png') no-repeat 50% 50%;
+	background: url('../assets/app/techstack/gitlab_1.png') no-repeat 50% 50%;
 }
 
-
+@media (max-width: 580px) {
+    .techstack_grid li {
+      width: 128px;
+      height: 128px;
+      display: inline-block;
+      margin: 15px;
+  }
+  .icon_swift {
+    background: url('../assets/app/techstack/swift_2.png') no-repeat 50% 50%;
+  }
+  .icon_vue {
+    background: url('../assets/app/techstack/vue_2.png') no-repeat 50% 50%;
+  }
+  .icon_nodejs {
+    background: url('../assets/app/techstack/node_2.png') no-repeat 50% 50%;
+  }
+  .icon_mongodb {
+    background: url('../assets/app/techstack/mongo_2.png') no-repeat 50% 50%;
+  }
+  .icon_html {
+    background: url('../assets/app/techstack/html_2.png') no-repeat 50% 50%;
+  }
+  .icon_css {
+    background: url('../assets/app/techstack/css_2.png') no-repeat 50% 50%;
+  }
+  .icon_github {
+    background: url('../assets/app/techstack/github_2.png') no-repeat 50% 50%;
+  }
+  .icon_gitlab {
+    background: url('../assets/app/techstack/gitlab_2.png') no-repeat 50% 50%;
+  }
+}
 </style>
