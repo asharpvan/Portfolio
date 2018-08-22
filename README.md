@@ -13,8 +13,8 @@ This by no way is an exhaustive list of things to do. One can assume the followi
 + ~~Local Menu Icon.~~ 21st August 2018
 + ~~Create Home Page.~~ 22nd August 2018
 + ~~Create and Connect Various Routes to Work, Projects and Work Experience.~~ 22nd August 2018
-+ Create Projects Page.
-+ Create Icons for Live Projects.
-+ Perpare format and text for Project details.
++ ~~Create Projects Page.~~ 22nd August 2018
++ ~~Create Icons for Live Projects.~~ 22nd August 2018
++ ~~Perpare format and text for Project details.~~ 22nd August 2018
 + Create Work Experience Page.
 
