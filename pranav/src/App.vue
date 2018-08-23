@@ -4,18 +4,20 @@
         <div class="menu-icon">
           <img @click="toggleMenu" src='../src/assets/app/menu_related/menu-bars.png' alt="menu" width="25" height="25">
         </div>
-        <div><router-link class="logo" to="/">LOGO</router-link></div>
+        <div><router-link class="logo" to="/">asharpvan</router-link></div>
+        <!-- asharpvan -->
         <div class="menu">
           <ul id="ul">
-            <li><router-link to="/" v-on:click.native="toggleMenu">Home</router-link></li>
-            <li><router-link to="/work" v-on:click.native="toggleMenu">Work Experience</router-link></li>
-            <li><router-link to="/projects" v-on:click.native="toggleMenu">Projects</router-link></li>
+            <li><router-link to="/about" v-on:click.native="toggleMenu">About</router-link></li>
+            <li><router-link to="/featured" v-on:click.native="toggleMenu">Featured</router-link></li>
+            <li><router-link to="/portfolio" v-on:click.native="toggleMenu">Portfolio</router-link></li>
           </ul>
         </div>
       </nav>
       <main>
         <router-view></router-view>
       </main>
+      <hr>
       <div id="footer">
           <p>Copyright © 2018 Pranav Sah. All rights reserved.</p>
       </div> 
@@ -61,13 +63,16 @@ export default {
     handleScroll: function (event) {
       console.log('Scrolled!!')
       if (window.scrollY > window.screenTop) {
-        // document.getElementById('nav').classList.add('black')
+        document.getElementById('nav').classList.add('black')
       } else {
-        // document.getElementById('nav').classList.remove('black')
+        document.getElementById('nav').classList.remove('black')
       }
     },
     toggleMenu: function () {
       console.log('menu button clicked')
+      // if (window.screen.width > 580) {
+      // document.getElementById('ul').classList.toggle('showing')
+      // }
       document.getElementById('ul').classList.toggle('showing')
     }
   }
@@ -77,11 +82,12 @@ export default {
 <style>
 
 .logo {
+  font-weight: 900;
   position: fixed;
   float: left;
   margin: 16px 36px;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 24px;
   text-decoration: none;
 }
@@ -99,7 +105,7 @@ nav ul {
   overflow: hidden;
   color: #ffffff;
   padding: 0;
-  text-align: center;
+  text-align: right;
   margin: 0;
   transition: 1s; 
 }
@@ -137,6 +143,7 @@ nav ul li a {
     position: fixed;
     top: 0;
     margin-top: 16px;
+    margin-left: 16px;
   }
   nav ul {
     max-height: 0px;
