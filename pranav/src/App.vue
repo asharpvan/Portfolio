@@ -184,6 +184,7 @@ nav ul li a {
 body {
   margin: 0;
   padding: 0;
+  /* overflow-y:hidden; */
 }
 
 #footer{
