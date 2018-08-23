@@ -4,12 +4,12 @@
         <div class="menu-icon">
           <img @click="toggleMenu" src='../src/assets/app/menu_related/menu-bars.png' alt="menu" width="25" height="25">
         </div>
-        <div class="logo">LOGO</div>
+        <div><router-link class="logo" to="/">LOGO</router-link></div>
         <div class="menu">
           <ul id="ul">
             <li><router-link to="/" v-on:click.native="toggleMenu">Home</router-link></li>
+            <li><router-link to="/work" v-on:click.native="toggleMenu">Work Experience</router-link></li>
             <li><router-link to="/projects" v-on:click.native="toggleMenu">Projects</router-link></li>
-            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -61,9 +61,9 @@ export default {
     handleScroll: function (event) {
       console.log('Scrolled!!')
       if (window.scrollY > window.screenTop) {
-        document.getElementById('nav').classList.add('black')
+        // document.getElementById('nav').classList.add('black')
       } else {
-        document.getElementById('nav').classList.remove('black')
+        // document.getElementById('nav').classList.remove('black')
       }
     },
     toggleMenu: function () {
@@ -83,6 +83,7 @@ export default {
   color: #ffffff;
   font-weight: bold;
   font-size: 24px;
+  text-decoration: none;
 }
 
 nav {
@@ -93,7 +94,8 @@ nav {
 
 nav ul {
   list-style: none;
-  background:  rgba(0,0,0,0);
+  background:  #000000;
+  /* background:  rgba(0,0,0,0); */
   overflow: hidden;
   color: #ffffff;
   padding: 0;
