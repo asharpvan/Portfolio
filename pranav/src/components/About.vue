@@ -8,8 +8,17 @@
       <p>I am an experienced iOS developer and a budding Full Stack Developer.</p>
       <p>Charming, kind, free spirited and attitude-prone, I was born in the hills of North India and love Trekking, Hiking and generally being close to nature. Coding is a second love of mine, I love creating solution and helping the world along the way.</p>
       <p>Passionate Chelsea FC fan and a hobbyist photographer, you may choose to follow me here:</p>
+      <div class="follow">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/pranav-sah-2407345b"><img src="../assets/app/social/linkedin.png" alt="linkedin" class="gallery_image"></a></li>
+          <li><a href="https://twitter.com/asharpvan"><img src="../assets/app/social/twitter.png" alt="twitter" class="gallery_image"></a></li>
+          <li><a href="https://www.instagram.com/asharpvan"><img src="../assets/app/social/instagram.png" alt="instagram" class="gallery_image"></a></li>
+          <li><a href="https://www.facebook.com/asharpvan"><img src="../assets/app/social/facebook.png" alt="facebook" class="gallery_image"></a></li>
+          <li><a href="https://github.com/asharpvan"><img src="../assets/app/social/github.png" alt="github" class="gallery_image"></a></li>
+          <li><a href="https://stackoverflow.com/users/5324042/ioser?tab=profile"><img src="../assets/app/social/stack.png" alt="stackoverflow" class="gallery_image"></a></li>
+        </ul>
+      </div>
     </div>
-    <br>
     <hr width="50%">
     <div class="professional_me">
       <h2>People I've worked for</h2>
@@ -39,7 +48,6 @@
         <p class="duration">August 2012 - November 2012</p>
       </div>
     </div>
-    <br>
     <hr width="50%">
     <div class="skills_me">
       <h2>Tech stack I dabble with</h2>
@@ -144,6 +152,20 @@ export default {
   border-radius: 50%;
 }
 
+ul {
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 2em;
+  list-style: none;
+  display: inline-block;
+  /* background-color: yellow; */
+
+}
 /******************** Professional Experience Section */
 .professional_me {
   width: 95%;
