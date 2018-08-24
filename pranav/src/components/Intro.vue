@@ -3,17 +3,14 @@
   <div class="wrapper">
     <header>
       <div class="intro_landing_section">
-        <h1>Some Welcoming Title</h1>
-        <!-- Hi! I'm Pranav -->
-        <h3>Some | Descriptive | Sub | Titles</h3>
-        <!-- Coder | Survivor | Learner | Freak -->
+        <h1>Pranav Sah</h1>
+        <h3>Coder | Survivor | Learner | Freak</h3>
         <br>
         <router-link to="/about" class="intro_landing_section_button">Know more</router-link>
-        <!-- know me more -->
       </div>
     </header>
     <div class="work_sample_section">
-      <h2>Some of our work</h2>
+      <h2>Some of my work</h2>
       <figure class="gallery_item">
         <img src="../assets/app/projects/sanket_sample.png" alt="sanket_sample" class="gallery_image">
         <figcaption class="gallery_caption"><strong>Sanket Life</strong></figcaption>
