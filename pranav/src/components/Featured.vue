@@ -25,7 +25,13 @@
 <script>
 /* Your JS goes here */
 export default {
-
+  head: {
+    title: {
+      inner: 'Featured',
+      separator: '|',
+      complement: 'asharpvan'
+    }
+  }
 }
 </script>
 

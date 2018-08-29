@@ -67,7 +67,13 @@
 <script>
 /* Your JS goes here */
 export default {
-
+  head: {
+    title: {
+      inner: 'Portfolio',
+      separator: '|',
+      complement: 'asharpvan'
+    }
+  }
 }
 </script>
 

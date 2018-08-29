@@ -32,8 +32,15 @@
 
 <script>
 /* Your JS goes here */
-export default {
 
+export default {
+  head: {
+    title: {
+      inner: 'Intro',
+      separator: '|',
+      complement: 'asharpvan'
+    }
+  }
 }
 </script>
 

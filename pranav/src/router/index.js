@@ -8,6 +8,9 @@ import About from '@/components/About'
 import Featured from '@/components/Featured'
 import Portfolio from '@/components/Portfolio'
 
+import VueHead from 'vue-head'
+
+Vue.use(VueHead)
 Vue.use(Router)
 
 export default new Router({

@@ -120,7 +120,13 @@
 <script>
 /* Your JS goes here */
 export default {
-
+  head: {
+    title: {
+      inner: 'About',
+      separator: '|',
+      complement: 'asharpvan'
+    }
+  }
 }
 </script>
 
