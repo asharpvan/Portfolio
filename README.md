@@ -16,7 +16,6 @@ This by no way is an exhaustive list of things to do. One can assume the followi
 + ~~Create Projects Page.~~ 22nd August 2018
 + ~~Create Icons for Live Projects.~~ 22nd August 2018
 + ~~Perpare format and text for Project details.~~ 22nd August 2018
-+ Create Work Experience Page.
-+ Style Work Experience Page.
-+ Contac Experience Page.
++ ~~Create Work Experience Page.~~ 29th August 2018
++ ~~Style Work Experience Page.~~ 29th August 2018
 
