@@ -40,7 +40,34 @@ export default {
       separator: '|',
       complement: 'asharpvan'
     }
-  }
+  },
+  meta: [
+    { name: 'application-name', content: 'asharpvan' },
+    { name: 'description', content: 'asharpvan Intro Page', id: 'desc' },
+    // Twitter
+    { n: 'twitter:title', c: 'asharpvan' },
+    { n: 'twitter:description', c: 'Get introduced to asharpvan' },
+    { n: 'twitter:image', c: '../assets/logo.png' },
+    { n: 'twitter:card', c: 'summary_large_image' },
+    { n: 'twitter:site', c: '@asharpvan' },
+    // Facebook / Open Graph
+    { p: 'fb:app_id', c: '123456789' },
+    { p: 'og:title', c: 'asharpvan' },
+    { p: 'og:type', c: 'website' },
+    { p: 'og:description', c: 'Content Title' },
+    { p: 'og:url', c: 'Content Title' },
+    { p: 'og:site_name', c: 'Content Title' },
+    { p: 'og:image', c: 'https://example.com/image.jpg' }
+  ],
+  link: [
+    { rel: 'canonical', h: 'https://asharpvan.firebaseapp.com/#/', id: 'canonical' },
+    { rel: 'icon', href: '/static/img/icons/favicon-16.png', sizes: '16x16', type: 'image/png' },
+    { r: 'icon', h: '/static/img/icons/favicon-32.png', sz: '32x32', t: 'image/png' }
+  ],
+  script: [
+  ],
+  style: [
+  ]
 }
 </script>
 
