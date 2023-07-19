@@ -21,7 +21,7 @@
     </div>
     <hr width="50%">
     <div class="professional_me">
-      <h2>People I've worked for</h2>
+      <h2>Organisations I've worked for</h2>
       <div class="work_exp">
         <h3 class="company">Biz2Credit Info Services Pvt Ltd, India</h3>
         <p class="designation">Senior Software Engineer</p>
