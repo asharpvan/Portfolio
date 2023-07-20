@@ -3,6 +3,32 @@
   <div class="wrapper">
     <div class="baseview">
       <div class="portfolio">
+        <h2>povo2.0</h2>
+        <p class="date">March 2021</p>
+        <p>povo2.0 empowers customers with the freedom to tailor the services in their plans, based on their individual preferences and requirements.
+
+povo2.0 was launched remotely during the COVID-19 pandemic, from Singapore into the Japan market, in just 16 weeks. This was a first for any digital telco brand in Japan.</p>
+        <p><a target="_blank" href="https://apps.apple.com/jp/app/povo2-0%E3%82%A2%E3%83%97%E3%83%AA/id1554037102?l=en">View on AppStore</a></p>
+        <br>
+        <img src="../assets/app/portfolio/povo2.0.png" alt="povo2.0">
+        <br>
+        <br>
+        <hr width="75%">
+      </div>
+      <div class="portfolio">
+        <h2>Deskera</h2>
+        <p class="date">September 2019</p>
+        <p>Business, Invoice, Accounting, Inventory, Attendance, Tax, Expenses, Reports – all in One App.
+          Deskera is a FREE app that will run your Business, Invoice, Accounting, Sales & Purchase, GST, Tax, Expenses, Reports, Inventory, Returns, Chat, Attendance, & maintain your Financial Reports & Statements eg Profit Loss, Balance Sheet, Cash Flow, etc.
+        </p>
+        <p><a target="_blank" href="https://apps.apple.com/us/app/deskera-business-accounting/id1463523833">View on AppStore</a></p>
+        <br>
+        <img src="../assets/app/portfolio/deskera.png" alt="deskera">
+        <br>
+        <br>
+        <hr width="75%">
+      </div>
+      <div class="portfolio">
         <h2>Sanket Life</h2>
         <p class="date">December 2015</p>
         <p>Sanket Life is an official accompanying app for revolutionary Sanket ECG device, a unique clinical grade health device. It can measure and record not only heart rate but also Sugar, SPO2, Cholesterol and Blood Pressure among others.</p>

@@ -12,16 +12,20 @@
     <div class="work_sample_section">
       <h2>Some of my work</h2>
       <figure class="gallery_item">
+        <img src="../assets/app/projects/povo2.0_logo.png" alt="povo2.0_logo" class="gallery_image">
+        <figcaption class="gallery_caption"><strong>povo2.0</strong></figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img src="../assets/app/projects/deskera_logo.png" alt="deskera_logo" class="gallery_image">
+        <figcaption class="gallery_caption"><strong>Deskera</strong></figcaption>
+      </figure>
+      <figure class="gallery_item">
         <img src="../assets/app/projects/sanket_sample.png" alt="sanket_sample" class="gallery_image">
         <figcaption class="gallery_caption"><strong>Sanket Life</strong></figcaption>
       </figure>
       <figure class="gallery_item">
         <img src="../assets/app/projects/geochirpr_sample.jpeg" alt="geochirpr_sample" class="gallery_image">
         <figcaption class="gallery_caption"><strong>GeoChirpr</strong></figcaption>
-      </figure>
-      <figure class="gallery_item">
-        <img src="../assets/app/projects/idayofyoga_sample.jpeg" alt="idoy_sample" class="gallery_image">
-        <figcaption class="gallery_caption"><strong>IDayofYoga</strong></figcaption>
       </figure>
       <br>
       <br>
