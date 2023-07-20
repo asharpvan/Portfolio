@@ -11,11 +11,11 @@
       <div class="follow">
         <ul>
           <li><a href="https://www.linkedin.com/in/pranav-sah-2407345b"><img src="../assets/app/social/linkedin.png" alt="linkedin" class="gallery_image"></a></li>
+          <li><a href="https://github.com/asharpvan"><img src="../assets/app/social/github.png" alt="github" class="gallery_image"></a></li>
+          <li><a href="https://stackoverflow.com/users/5324042/ioser?tab=profile"><img src="../assets/app/social/stack.png" alt="stackoverflow" class="gallery_image"></a></li>
           <li><a href="https://twitter.com/asharpvan"><img src="../assets/app/social/twitter.png" alt="twitter" class="gallery_image"></a></li>
           <li><a href="https://www.instagram.com/asharpvan"><img src="../assets/app/social/instagram.png" alt="instagram" class="gallery_image"></a></li>
           <li><a href="https://www.facebook.com/asharpvan"><img src="../assets/app/social/facebook.png" alt="facebook" class="gallery_image"></a></li>
-          <li><a href="https://github.com/asharpvan"><img src="../assets/app/social/github.png" alt="github" class="gallery_image"></a></li>
-          <li><a href="https://stackoverflow.com/users/5324042/ioser?tab=profile"><img src="../assets/app/social/stack.png" alt="stackoverflow" class="gallery_image"></a></li>
         </ul>
       </div>
     </div>
@@ -23,9 +23,24 @@
     <div class="professional_me">
       <h2>Organisations I've worked for</h2>
       <div class="work_exp">
+        <h3 class="company">Circles.Life, Singapore</h3>
+        <p class="designation">Staff Engineer</p>
+        <p class="duration">January 2023 - Current</p>
+      </div>
+      <div class="work_exp">
+        <h3 class="company">Salt Talent Pte Ltd (Client: Liberty Wireless Pte Ltd), Singapore</h3>
+        <p class="designation">Senior iOS Developer</p>
+        <p class="duration">March 2021 - January 2023</p>
+      </div>
+      <div class="work_exp">
+        <h3 class="company">Deskera Pte Ltd, Singapore</h3>
+        <p class="designation">Senior Application Developer</p>
+        <p class="duration">August 2019 - March 2021</p>
+      </div>
+      <div class="work_exp">
         <h3 class="company">Biz2Credit Info Services Pvt Ltd, India</h3>
         <p class="designation">Senior Software Engineer</p>
-        <p class="duration">May 2017 - Current</p>
+        <p class="duration">May 2017 - August 2019</p>
       </div>
       <div class="work_exp">
         <h3 class="company">Agatsa Software Pvt Ltd, India</h3>
@@ -61,28 +76,24 @@
           <figcaption class="gallery_caption"><strong>Objective-C</strong></figcaption>
         </figure>
         <figure class="skill_item">
-          <img src="../assets/app/techstack/vue.png" alt="vue_sample" class="gallery_image">
-          <figcaption class="gallery_caption"><strong>Vue JS</strong></figcaption>
+          <img src="../assets/app/techstack/go_lang.png" alt="go_lang" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>Go</strong></figcaption>
         </figure>
         <figure class="skill_item">
-          <img src="../assets/app/techstack/node.png" alt="node_sample" class="gallery_image">
-          <figcaption class="gallery_caption"><strong>Node JS</strong></figcaption>
+          <img src="../assets/app/techstack/kibana.png" alt="kibana" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>ElasticSearch</strong></figcaption>
         </figure>
         <figure class="skill_item">
-          <img src="../assets/app/techstack/mongo.png" alt="mongo_sample" class="gallery_image">
-          <figcaption class="gallery_caption"><strong>Mongo DB</strong></figcaption>
+          <img src="../assets/app/techstack/new_relic.png" alt="new_relic" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>New Relic</strong></figcaption>
+        </figure>
+        <figure class="skill_item">
+          <img src="../assets/app/techstack/ops_genie.png" alt="ops_genie" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>OpsGenie</strong></figcaption>
         </figure>
         <figure class="skill_item">
           <img src="../assets/app/techstack/github.png" alt="github_sample" class="gallery_image">
           <figcaption class="gallery_caption"><strong>Github</strong></figcaption>
-        </figure>
-        <figure class="skill_item">
-          <img src="../assets/app/techstack/html.png" alt="html_sample" class="gallery_image">
-          <figcaption class="gallery_caption"><strong>HTML</strong></figcaption>
-        </figure>
-        <figure class="skill_item">
-          <img src="../assets/app/techstack/css.png" alt="css_sample" class="gallery_image">
-          <figcaption class="gallery_caption"><strong>CSS</strong></figcaption>
         </figure>
         <figure class="skill_item">
           <img src="../assets/app/techstack/gitlab.png" alt="gitlab_sample" class="gallery_image">
@@ -101,16 +112,36 @@
           <figcaption class="gallery_caption"><strong>Crashlytics</strong></figcaption>
         </figure>
         <figure class="skill_item">
+          <img src="../assets/app/techstack/node.png" alt="node_sample" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>Node JS</strong></figcaption>
+        </figure>
+        <figure class="skill_item">
+          <img src="../assets/app/techstack/vue.png" alt="vue_sample" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>Vue JS</strong></figcaption>
+        </figure>
+        <figure class="skill_item">
+          <img src="../assets/app/techstack/mongo.png" alt="mongo_sample" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>Mongo DB</strong></figcaption>
+        </figure>
+        <figure class="skill_item">
+          <img src="../assets/app/techstack/html.png" alt="html_sample" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>HTML</strong></figcaption>
+        </figure>
+        <figure class="skill_item">
+          <img src="../assets/app/techstack/css.png" alt="css_sample" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>CSS</strong></figcaption>
+        </figure>
+        <figure class="skill_item">
+          <img src="../assets/app/techstack/jira.png" alt="jira_sample" class="gallery_image">
+          <figcaption class="gallery_caption"><strong>Jira</strong></figcaption>
+        </figure>
+        <figure class="skill_item">
           <img src="../assets/app/techstack/twilio.png" alt="twilio_sample" class="gallery_image">
           <figcaption class="gallery_caption"><strong>Twilio</strong></figcaption>
         </figure>
         <figure class="skill_item">
           <img src="../assets/app/techstack/basecamp.png" alt="basecamp_sample" class="gallery_image">
           <figcaption class="gallery_caption"><strong>Basecamp</strong></figcaption>
-        </figure>
-        <figure class="skill_item">
-          <img src="../assets/app/techstack/jira.png" alt="jira_sample" class="gallery_image">
-          <figcaption class="gallery_caption"><strong>Jira</strong></figcaption>
         </figure>
       </div>
     </div>
