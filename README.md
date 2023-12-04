@@ -1,3 +1,5 @@
+# Badges
+[![Build Status](https://travis-ci.org/asharpvan/Portfolio.svg?branch=master)](https://travis-ci.org/asharpvan/Portfolio)
 
 # Portfolio
 A simpleton of a project to learn the **DO's** and **DON'Ts** of creating a PWA using 
